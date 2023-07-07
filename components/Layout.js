@@ -18,7 +18,7 @@ export default function Layout({ children }) {
       </div>
 
       <footer>
-        <p>Copyright 2023 Just Add Recipe :)</p>
+        <p>Copyright 2023 Just About Sports :)</p>
       </footer>
     </div>
   )
