@@ -4,8 +4,8 @@ export async function getStaticProps() {
 
   // The createClient function makes a connection to the ContentfulCMS
   const client = createClient({
-    space: 'v7bj7er35m23',
-    accessToken: '2c7ZpJHrr2wv9bnr1jbYgbQTzqO_Wn5HYTap5EXicCU'
+    space: process.env.SPACE_ID,
+    accessToken: process.env.ACCESS_KEY,
   })
 
   const res = await client.getEntries({ content_type: "sports" })
