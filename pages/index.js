@@ -33,8 +33,6 @@ export default function Home({ sports }) {
           display: grid;
           grid-template-columns: 1fr 1fr;
           grid-gap: 20px 60px;
-          border: 1px solid black;
-          padding-left:15px;
         }
       `}</style>
     </div>
