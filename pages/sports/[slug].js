@@ -45,8 +45,10 @@ export default function SportsDetails({ sport }) {
       <div className="banner">
         <Image 
           src={'https:' + image.fields.file.url}
-          width={image.fields.file.details.image.width}
-          height={image.fields.file.details.image.height}
+          // width={image.fields.file.details.image.width}
+          // height={image.fields.file.details.image.height}
+          width={`900`}
+          height={`650`}
           alt='Sports picture'
         />
         <h2>{ name }</h2>
